@@ -1,4 +1,4 @@
-# VU ISI Blockchain course's hashing function ranking
+# VU ISI Blockchain course's hashing function benchmark
 Hashrank is a tool designed to help rank VU ISI hashing algorithms. This benchmark will determine how fast and reliable your algorithm works.
 
 ![](https://media.giphy.com/media/6Z3D5t31ZdoNW/giphy.gif)  
@@ -29,7 +29,7 @@ There are two main ways to do it:
 * Run `$ python3 rank.py <name of the executable>`
 * Add your results to the table below
 
-To submit your results just make PR with your entry in the table below:
+To submit your results just make [PR](https://help.github.com/en/articles/creating-a-pull-request) with your entry in the table below:
 
 **Legend**
 `A` - Average hashing time of "Konstitucija.txt"  
