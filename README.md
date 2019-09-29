@@ -10,6 +10,7 @@ This benchmark is designed based on [Blockchain Group's practical task analysys]
 
 ### Requirements for the hashing algorithm
 * It must accept string as `Console Argument`
+* It returns hash as a simple console output.
 * It must accept strings as long as 10000 characters
 * It has to have CMake or Makefile to be able to easily build the executable
 
@@ -31,7 +32,7 @@ There are two main ways to do it:
 
 To submit your results just make [PR](https://help.github.com/en/articles/creating-a-pull-request) with your entry in the table below:
 
-**Legend**
+**Legend**  
 `A` - Average hashing time of "Konstitucija.txt"  
 `B` - Letter collision test time  
 `C` - Letter collision similarity average  
