@@ -8,6 +8,7 @@ import os
 from time import time
 import random
 import string
+import hashlib
 from tqdm import tqdm
 
 random.seed(42)
@@ -40,6 +41,26 @@ def constitution(hash_name):
             cnt += 1
 
     print('Average hashing time of Konstitucija: {}s.'.format(round(all_time / cnt, 4)))
+
+def reference_sha():
+    '''Sets reference time of hasing for your machine.'''
+    coll_ = 0
+    rn_ = 1000
+    w_count = 10000
+    similar_avg = 0
+    all_start = time()
+    for i in tqdm(range(w_count)):
+        rw_ = get_word(rn_)
+        st1 = ''.join(format(ord(x), 'b') for x in hashlib.sha256(rw_.encode('utf-8')).hexdigest())
+        rs_ = list(rw_)
+        rs_[random.randint(0, rn_ - 2)] = ' '
+        st2 = ''.join(format(ord(x), 'b') for x in hashlib.sha256(rw_.encode('utf-8')).hexdigest())
+        ss_ = similar(st1, st2)
+        if ss_ == 1:
+            coll_ += 1
+        similar_avg += ss_
+
+    print('Reference SHA test took: {}s.'.format(round(time() - all_start, 4)))
 
 def letter_collision(hash_name):
     '''Benchmarks letter collision.'''
@@ -87,6 +108,7 @@ def main():
     if len(sys.argv) < 2:
         print('You need to pass your hash executable\'s name!')
         return
+    reference_sha()
     constitution(sys.argv[1])
     letter_collision(sys.argv[1])
     word_collision(sys.argv[1])

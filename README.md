@@ -16,9 +16,10 @@ This benchmark is designed based on [Blockchain Group's practical task analysys]
 
 ### What does this benchmark do?
 It runs in three steps:
-1) Calculates the average time of hashing every line of "Konstitucija.txt" file.
-2) Calculates similarity score, time and collision number of pair of random strings that differ with one char
-3) Calculates similarity score, time and collision number of pair of random strings
+1) Gets reference time of basic letter collision test using SHA256 algorithm
+2) Calculates the average time of hashing every line of "Konstitucija.txt" file.
+3) Calculates similarity score, time and collision number of pair of random strings that differ with one char
+4) Calculates similarity score, time and collision number of pair of random strings
 
 ### How to run the benchmark
 There are two main ways to do it:
@@ -41,8 +42,8 @@ To submit your results just make [PR](https://help.github.com/en/articles/creati
 `F` - Word collision similarity average  
 `G` - Number of collisions found in Word test  
 
-| Github nick | Link to the repo | Course/group | A      | B         | C      | D    | E          | F      | G |
-|-------------|------------------|--------------|--------|-----------|--------|------|------------|--------|---|
-| dqmis       | dqmis/vuhash     | 2/1          | 0.0052 | 1417.6514 | 0.1108 | 9917 | 1497.0956s | 0.0056 | 0 |
-|             |                  |              |        |           |        |      |            |        |   |
-|             |                  |              |        |           |        |      |            |        |   |
+| Github nick | Link to the repo | Course/group | Reference test | A      | B         | C      | D    | E          | F      | G |
+|-------------|------------------|--------------|----------------|--------|-----------|--------|------|------------|--------|---|
+| dqmis       | dqmis/vuhash     | 2/1          | 5.7301         | 0.0052 | 1417.6514 | 0.1108 | 9917 | 1497.0956s | 0.0056 | 0 |
+|             |                  |              |                |        |           |        |      |            |        |   |
+|             |                  |              |                |        |           |        |      |            |        |   |
