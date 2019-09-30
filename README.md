@@ -41,9 +41,8 @@ To submit your results just make [PR](https://help.github.com/en/articles/creati
 `F` - Word collision similarity average  
 `G` - Number of collisions found in Word test  
 
-| Github nick | Link to the repo | A      | B         | C      | D    | E          | F      | G |
-|-------------|------------------|--------|-----------|--------|------|------------|--------|---|
-| dqmis       | dqmis/vuhash     | 0.0052 | 1417.6514 | 0.1108 | 9917 | 1497.0956s | 0.0056 | 0 |
-|             |                  |        |           |        |      |            |        |   |
-|             |                  |        |           |        |      |            |        |   |
-
+| Github nick | Link to the repo | Course/group | A      | B         | C      | D    | E          | F      | G |
+|-------------|------------------|--------------|--------|-----------|--------|------|------------|--------|---|
+| dqmis       | dqmis/vuhash     | 2/1          | 0.0052 | 1417.6514 | 0.1108 | 9917 | 1497.0956s | 0.0056 | 0 |
+|             |                  |              |        |           |        |      |            |        |   |
+|             |                  |              |        |           |        |      |            |        |   |
