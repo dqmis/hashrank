@@ -16,7 +16,7 @@ This benchmark is designed based on [Blockchain Group's practical task analysys]
 
 ### What does this benchmark do?
 It runs in three steps:
-1) Gets reference time of basic letter collision test using SHA256 algorithm
+1) Gets reference time of basic letter collision test using SHA256 algorithm (credits to [emilisb](github.com/emilisb) for noticing this issue :D)
 2) Calculates the average time of hashing every line of "Konstitucija.txt" file.
 3) Calculates similarity score, time and collision number of pair of random strings that differ with one char
 4) Calculates similarity score, time and collision number of pair of random strings
