@@ -48,4 +48,4 @@ To submit your results just make [PR](https://help.github.com/en/articles/creati
 | gytautele   | gytautele/blockchain        | 2/2          | 5.7201         | 0.0047 | 1043.5663  | 0.0136 | 0    | 1060.4037  | 0.0141 | 49 |
 | emilisb     | emilisb/Hash                | 2/2          | 5.3863         | 0.0035 | 804.7102   | 0.0108 | 0    | 820.5668   | 0.0108 | 0  |
 | gitguuddd   | gitguuddd/Hash_generatorius | 2/2          | 7.119          | 0.0285 | 6833.3648  | 0.0308 | 2    | 6840.2643  | 0.005  | 0  |
-| zygisau     | zygisau/                    | 2/1          | 5.4321         | 0.0291 | 27320.3243 | 0.0148 | 96   | 27213.3451 | 0.0121 | 5  |
+| zygisau     | zygisau/ZA-256              | 2/1          | 5.4321         | 0.0291 | 27320.3243 | 0.0148 | 96   | 27213.3451 | 0.0121 | 5  |
