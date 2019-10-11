@@ -42,10 +42,13 @@ To submit your results just make [PR](https://help.github.com/en/articles/creati
 `F` - Word collision similarity average  
 `G` - Number of collisions found in Word test  
 
-| Github nick | Link to the repo            | Course/group | Reference test | A      | B          | C      | D    | E          | F      | G  |
-|-------------|-----------------------------|--------------|----------------|--------|------------|--------|------|------------|--------|----|
-| dqmis       | dqmis/vuhash                | 2/1          | 5.7301         | 0.0052 | 1417.6514  | 0.1108 | 9917 | 1497.0956s | 0.0056 | 0  |
-| gytautele   | gytautele/blockchain        | 2/2          | 5.7201         | 0.0047 | 1043.5663  | 0.0136 | 0    | 1060.4037  | 0.0141 | 49 |
-| emilisb     | emilisb/Hash                | 2/2          | 5.3863         | 0.0035 | 804.7102   | 0.0108 | 0    | 820.5668   | 0.0108 | 0  |
-| gitguuddd   | gitguuddd/Hash_generatorius | 2/2          | 7.119          | 0.0285 | 6833.3648  | 0.0308 | 2    | 6840.2643  | 0.005  | 0  |
-| zygisau     | zygisau/ZA-256              | 2/1          | 5.4321         | 0.0291 | 27320.3243 | 0.0148 | 96   | 27213.3451 | 0.0121 | 5  |
+| Github nick  | Link to the repo                | Course/group | Reference test | A      | B          | C      | D    | E          | F      | G  |
+|--------------|---------------------------------|--------------|----------------|--------|------------|--------|------|------------|--------|----|
+| dqmis        | dqmis/vuhash                    | 2/1          | 5.7301         | 0.0052 | 1417.6514  | 0.1108 | 9917 | 1497.0956s | 0.0056 | 0  |
+| gytautele    | gytautele/blockchain            | 2/2          | 5.7201         | 0.0047 | 1043.5663  | 0.0136 | 0    | 1060.4037  | 0.0141 | 49 |
+| emilisb      | emilisb/Hash                    | 2/2          | 5.3863         | 0.0035 | 804.7102   | 0.0108 | 0    | 820.5668   | 0.0108 | 0  |
+| gitguuddd    | gitguuddd/Hash_generatorius     | 2/2          | 7.119          | 0.0285 | 6833.3648  | 0.0308 | 2    | 6840.2643  | 0.005  | 0  |
+| zygisau      | zygisau/ZA-256                  | 2/1          | 5.4321         | 0.0291 | 27320.3243 | 0.0148 | 96   | 27213.3451 | 0.0121 | 5  |
+| rokas28      | rokas28/VUhash                  | 2/1          | 6.0001         | 0.0047 | 1491.2054  | 0.0058 | 0    | 1073.8285  | 0.006  | 18 |
+| RokasDomeika | RokasDomeika/VU_hash            | 2/2          | 3.4918         | 0.0014 | 363.7676   | 0.0053 | 0    | 382.4108   | 0.0056 | 26 |
+| andriusjok   | Andriusjok/OriginalHashFunction | 2/1          | 6.7236         | 0.0159 | 4026.8039  | 0.5665 | 0    | 3994.1818  | 0.5665 | 0  |
